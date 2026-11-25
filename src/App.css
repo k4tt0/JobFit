@@ -1,0 +1,177 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #2563eb;
+  margin-bottom: 5px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.skill-checkbox {
+  background: #eff6ff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.company {
+  color: #6b7280;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.result-card {
+  border-left: 6px solid #2563eb;
+}
+
+.score-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.progress-bar {
+  background: #e5e7eb;
+  height: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.progress-fill {
+  background: #10b981;
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.rec-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fef2f2;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.recommendations ul {
+  padding: 0;
+}
+
+.btn-course {
+  background: #ef4444;
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.success-msg {
+  color: #059669;
+  font-weight: bold;
+  font-size: 18px;
+}
+.role-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: 2px solid #2563eb;
+  background: white;
+  color: #2563eb;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tab-btn.active {
+  background: #2563eb;
+  color: white;
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: inherit;
+}
