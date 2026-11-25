@@ -1,0 +1,6 @@
+# Local configuration may contain database credentials.
+.env
+
+# Installed dependencies and generated test coverage.
+node_modules/
+coverage/
